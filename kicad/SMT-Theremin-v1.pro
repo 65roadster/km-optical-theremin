@@ -1,4 +1,4 @@
-update=6/15/2020 2:39:06 PM
+update=6/15/2020 10:40:30 PM
 version=1
 last_client=pcbnew
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=KM-SMT-Theremin-v1.net
+LastNetListRead=SMT-Theremin-v1.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
