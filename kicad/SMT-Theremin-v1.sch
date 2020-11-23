@@ -16,45 +16,45 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x01 MTH1
 U 1 1 5C7BEE0B
-P 9650 6350
-F 0 "MTH1" H 9708 6470 50  0000 L CNN
-F 1 "Mount Hole" H 9708 6379 50  0000 L CNN
-F 2 "Rays Footprints:Mount-Hole-#4" H 9850 6350 50  0001 C CNN
-F 3 "~" H 9850 6350 50  0001 C CNN
-	1    9650 6350
+P 11850 7100
+F 0 "MTH1" H 11908 7220 50  0000 L CNN
+F 1 "Mount Hole" H 11908 7129 50  0000 L CNN
+F 2 "Rays Footprints:Mount-Hole-#4" H 12050 7100 50  0001 C CNN
+F 3 "~" H 12050 7100 50  0001 C CNN
+	1    11850 7100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 MTH3
 U 1 1 5C7C3E6F
-P 9650 6850
-F 0 "MTH3" H 9708 6970 50  0000 L CNN
-F 1 "Mount Hole" H 9708 6879 50  0000 L CNN
-F 2 "Rays Footprints:Mount-Hole-#4" H 9850 6850 50  0001 C CNN
-F 3 "~" H 9850 6850 50  0001 C CNN
-	1    9650 6850
+P 11850 7600
+F 0 "MTH3" H 11908 7720 50  0000 L CNN
+F 1 "Mount Hole" H 11908 7629 50  0000 L CNN
+F 2 "Rays Footprints:Mount-Hole-#4" H 12050 7600 50  0001 C CNN
+F 3 "~" H 12050 7600 50  0001 C CNN
+	1    11850 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 MTH2
 U 1 1 5C7C3ED3
-P 9650 6600
-F 0 "MTH2" H 9708 6720 50  0000 L CNN
-F 1 "Mount Hole" H 9708 6629 50  0000 L CNN
-F 2 "Rays Footprints:Mount-Hole-#4" H 9850 6600 50  0001 C CNN
-F 3 "~" H 9850 6600 50  0001 C CNN
-	1    9650 6600
+P 11850 7350
+F 0 "MTH2" H 11908 7470 50  0000 L CNN
+F 1 "Mount Hole" H 11908 7379 50  0000 L CNN
+F 2 "Rays Footprints:Mount-Hole-#4" H 12050 7350 50  0001 C CNN
+F 3 "~" H 12050 7350 50  0001 C CNN
+	1    11850 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 MTH4
 U 1 1 5C7C3F39
-P 9650 7100
-F 0 "MTH4" H 9708 7220 50  0000 L CNN
-F 1 "Mount Hole" H 9708 7129 50  0000 L CNN
-F 2 "Rays Footprints:Mount-Hole-#4" H 9850 7100 50  0001 C CNN
-F 3 "~" H 9850 7100 50  0001 C CNN
-	1    9650 7100
+P 11850 7850
+F 0 "MTH4" H 11908 7970 50  0000 L CNN
+F 1 "Mount Hole" H 11908 7879 50  0000 L CNN
+F 2 "Rays Footprints:Mount-Hole-#4" H 12050 7850 50  0001 C CNN
+F 3 "~" H 12050 7850 50  0001 C CNN
+	1    11850 7850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -302,42 +302,42 @@ Connection ~ 9550 5600
 $Comp
 L Connector_Generic:Conn_01x01 TP1
 U 1 1 5EFE14FB
-P 8150 6400
-F 0 "TP1" H 8208 6520 50  0000 L CNN
-F 1 "EZ Hook Hole" H 8208 6429 50  0000 L CNN
-F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 8350 6400 50  0001 C CNN
-F 3 "~" H 8350 6400 50  0001 C CNN
-	1    8150 6400
+P 12050 5250
+F 0 "TP1" H 12108 5370 50  0000 L CNN
+F 1 "EZ Hook Hole" H 12108 5279 50  0000 L CNN
+F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 12250 5250 50  0001 C CNN
+F 3 "~" H 12250 5250 50  0001 C CNN
+	1    12050 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 TP2
 U 1 1 5EFE2840
-P 8150 6650
-F 0 "TP2" H 8208 6770 50  0000 L CNN
-F 1 "EZ Hook Hole" H 8208 6679 50  0000 L CNN
-F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 8350 6650 50  0001 C CNN
-F 3 "~" H 8350 6650 50  0001 C CNN
-	1    8150 6650
+P 12050 5500
+F 0 "TP2" H 12108 5620 50  0000 L CNN
+F 1 "EZ Hook Hole" H 12108 5529 50  0000 L CNN
+F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 12250 5500 50  0001 C CNN
+F 3 "~" H 12250 5500 50  0001 C CNN
+	1    12050 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7900 6400 0    50   Input ~ 0
+Text GLabel 11800 5250 0    50   Input ~ 0
 VCC
 Wire Wire Line
-	7900 6400 7950 6400
+	11800 5250 11850 5250
 $Comp
 L power:GND #PWR03
 U 1 1 5EFE3AD7
-P 7900 6650
-F 0 "#PWR03" H 7900 6400 50  0001 C CNN
-F 1 "GND" H 7905 6477 50  0001 C CNN
-F 2 "" H 7900 6650 50  0001 C CNN
-F 3 "" H 7900 6650 50  0001 C CNN
-	1    7900 6650
+P 11800 5500
+F 0 "#PWR03" H 11800 5250 50  0001 C CNN
+F 1 "GND" H 11805 5327 50  0001 C CNN
+F 2 "" H 11800 5500 50  0001 C CNN
+F 3 "" H 11800 5500 50  0001 C CNN
+	1    11800 5500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7900 6650 7950 6650
+	11800 5500 11850 5500
 Connection ~ 8850 4250
 Wire Wire Line
 	8850 4700 8800 4700
@@ -409,36 +409,36 @@ OUT2
 Wire Wire Line
 	10200 4700 9950 4700
 Connection ~ 9950 4700
-Text GLabel 7900 6900 0    50   Input ~ 0
+Text GLabel 11800 5750 0    50   Input ~ 0
 OUT1
-Text GLabel 7900 7150 0    50   Input ~ 0
+Text GLabel 11800 6000 0    50   Input ~ 0
 OUT2
 $Comp
 L Connector_Generic:Conn_01x01 TP3
 U 1 1 5EFFBA34
-P 8150 6900
-F 0 "TP3" H 8208 7020 50  0000 L CNN
-F 1 "EZ Hook Hole" H 8208 6929 50  0000 L CNN
-F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 8350 6900 50  0001 C CNN
-F 3 "~" H 8350 6900 50  0001 C CNN
-	1    8150 6900
+P 12050 5750
+F 0 "TP3" H 12108 5870 50  0000 L CNN
+F 1 "EZ Hook Hole" H 12108 5779 50  0000 L CNN
+F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 12250 5750 50  0001 C CNN
+F 3 "~" H 12250 5750 50  0001 C CNN
+	1    12050 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 TP4
 U 1 1 5EFFBC2F
-P 8150 7150
-F 0 "TP4" H 8208 7270 50  0000 L CNN
-F 1 "EZ Hook Hole" H 8208 7179 50  0000 L CNN
-F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 8350 7150 50  0001 C CNN
-F 3 "~" H 8350 7150 50  0001 C CNN
-	1    8150 7150
+P 12050 6000
+F 0 "TP4" H 12108 6120 50  0000 L CNN
+F 1 "EZ Hook Hole" H 12108 6029 50  0000 L CNN
+F 2 "Rays Footprints:TP-Minigrabber-Edge-Via" H 12250 6000 50  0001 C CNN
+F 3 "~" H 12250 6000 50  0001 C CNN
+	1    12050 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 6900 7900 6900
+	11850 5750 11800 5750
 Wire Wire Line
-	7950 7150 7900 7150
+	11850 6000 11800 6000
 $Comp
 L Device:C C5
 U 1 1 5F04EC08
@@ -466,27 +466,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5F053720
-P 6550 6750
-F 0 "#PWR0102" H 6550 6500 50  0001 C CNN
-F 1 "GND" H 6555 6577 50  0001 C CNN
-F 2 "" H 6550 6750 50  0001 C CNN
-F 3 "" H 6550 6750 50  0001 C CNN
-	1    6550 6750
+P 12000 3700
+F 0 "#PWR0102" H 12000 3450 50  0001 C CNN
+F 1 "GND" H 12005 3527 50  0001 C CNN
+F 2 "" H 12000 3700 50  0001 C CNN
+F 3 "" H 12000 3700 50  0001 C CNN
+	1    12000 3700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6700 7150 2    50   Input ~ 0
+Text GLabel 12150 4100 2    50   Input ~ 0
 VCC
 Wire Wire Line
-	6350 6750 6200 6750
+	11800 3700 11650 3700
 $Comp
 L Connector_Generic:Conn_01x02 TP5
 U 1 1 5F079BA9
-P 6450 6550
-F 0 "TP5" V 6650 6450 50  0000 L CNN
-F 1 "9V Battery" V 6550 6300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6650 6550 50  0001 C CNN
-F 3 "~" H 6650 6550 50  0001 C CNN
-	1    6450 6550
+P 11900 3500
+F 0 "TP5" V 12100 3400 50  0000 L CNN
+F 1 "9V Battery" V 12000 3250 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12100 3500 50  0001 C CNN
+F 3 "~" H 12100 3500 50  0001 C CNN
+	1    11900 3500
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -507,29 +507,29 @@ Wire Wire Line
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5F08AE04
-P 6200 6950
-F 0 "SW1" V 6154 6762 50  0000 R CNN
-F 1 "SW_SPDT" V 6245 6762 50  0000 R CNN
-F 2 "Rays Footprints:KM-SPDT-Slide" H 6200 6950 50  0001 C CNN
-F 3 "~" H 6200 6950 50  0001 C CNN
-	1    6200 6950
+P 11650 3900
+F 0 "SW1" V 11604 3712 50  0000 R CNN
+F 1 "SW_SPDT" V 11695 3712 50  0000 R CNN
+F 2 "Rays Footprints:KM-SPDT-Slide" H 11650 3900 50  0001 C CNN
+F 3 "~" H 11650 3900 50  0001 C CNN
+	1    11650 3900
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6700 7150 6300 7150
+	12150 4100 11750 4100
 Wire Wire Line
-	6450 6750 6550 6750
-Text Notes 6150 7550 0    79   ~ 0
-9V (?) battery\npower switch
-Text Notes 7700 7650 0    79   ~ 0
+	11900 3700 12000 3700
+Text Notes 11600 4500 0    79   ~ 0
+9V battery\npower switch
+Text Notes 11600 6500 0    79   ~ 0
 Min-grabber holes\nfor quick debugging\nduring class
-Text Notes 9400 7650 0    79   ~ 0
+Text Notes 11600 8400 0    79   ~ 0
 Mounting holes\nin case anyone\nwants them
 Text Notes 5500 3450 0    79   ~ 0
 Flashes an LED\nfor vibrato
-Text Notes 8950 3550 0    79   ~ 0
+Text Notes 8850 3500 0    79   ~ 0
 LDR picks up ambient\nlight and pulsed LED\nfor vibrato and pitch
-Text Notes 11700 4750 0    79   ~ 0
+Text Notes 5150 8700 0    79   ~ 0
 Different size components gives attendees variety\nand makes it easy to quickly tell if components\nare installed in correct spots during class\n\n0.01uF - 0603\n0.1uF - 0805\n10uF - 1206\n\nResistors - 1206, 2 values\nTeimpots - 100k
 Wire Wire Line
 	6650 3850 7750 3850
@@ -557,8 +557,8 @@ Wire Wire Line
 Wire Wire Line
 	8450 4250 8450 4400
 Connection ~ 8450 4400
-Text Notes 2500 2900 0    79   ~ 0
+Text Notes 5150 6850 0    79   ~ 0
 T=0.693*(R1+2*R2)*C1\nR2=0: 0.693*(1000 + 2 * 0) * 10e-6 = 0.007 seconds = 144 hz\nR2=50k: 0.693*(1000 + 2 * 50,000) * 10e-6 = 0.700 seconds = 1.4 hz\nR2=100k: 0.693*(1000 + 2 * 100,000) * 10e-6 = 1.39 seconds = 0.718 hz
-Text Notes 8850 2900 0    79   ~ 0
-Frequency of this stage is 72Hz if LDR = 0 Ohms
+Text Notes 5150 7200 0    79   ~ 0
+Frequency of 2nd stage is 72Hz if LDR = 0 Ohms
 $EndSCHEMATC

@@ -80,10 +80,10 @@ F 3 "" H 5800 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_TRIM_US RV2
+L Device:R_POT_TRIM_US R3
 U 1 1 5EE91D28
 P 5300 4450
-F 0 "RV2" H 5700 4400 50  0000 R CNN
+F 0 "R3" H 5700 4400 50  0000 R CNN
 F 1 "100k" H 5700 4550 50  0000 R CNN
 F 2 "Rays Footprints:Potentiometer_Vishay_TS53YJ_Vertical" H 5300 4450 50  0001 C CNN
 F 3 "~" H 5300 4450 50  0001 C CNN
@@ -94,8 +94,8 @@ $Comp
 L Rays_Symbols:LM555 U1
 U 1 1 5EE98C1B
 P 5900 4350
-F 0 "U1" H 6050 4300 50  0000 L CNN
-F 1 "LM555" H 6000 4200 50  0000 L CNN
+F 0 "U1" H 5900 4300 50  0000 L CNN
+F 1 "NE555" H 5800 4200 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5900 4350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5900 4350 50  0001 C CNN
 	1    5900 4350
@@ -124,10 +124,10 @@ Wire Wire Line
 	6050 3700 6050 3850
 Connection ~ 6050 3850
 $Comp
-L Device:R_US R3
+L Device:R_US R2
 U 1 1 5EEA9AFA
 P 6650 4100
-F 0 "R3" H 6500 4050 50  0000 C CNN
+F 0 "R2" H 6500 4050 50  0000 C CNN
 F 1 "1k" H 6500 4150 50  0000 C CNN
 F 2 "Rays Footprints:R_1206_HandSoldering" V 6690 4090 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73N3AR068FTDF/A109690CT-ND/4032456" H 6650 4100 50  0001 C CNN
@@ -188,10 +188,10 @@ Wire Wire Line
 	5300 4600 5300 4700
 Connection ~ 5300 4700
 $Comp
-L Device:C C3
+L Device:C C2
 U 1 1 5EF0390D
 P 5800 5400
-F 0 "C3" H 5950 5350 50  0000 L CNN
+F 0 "C2" H 5950 5350 50  0000 L CNN
 F 1 "0.01u" H 5900 5450 50  0000 L CNN
 F 2 "Rays Footprints:C_0603_HandSoldering" H 5838 5250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/kemet/C0805C822KBRACTU/399-6740-1-ND/3083914" H 5800 5400 50  0001 C CNN
@@ -219,10 +219,10 @@ F 3 "~" H 10390 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R2
+L Device:R_US R4
 U 1 1 5EF65298
 P 8850 4050
-F 0 "R2" H 8700 4000 50  0000 C CNN
+F 0 "R4" H 8700 4000 50  0000 C CNN
 F 1 "1k" H 8700 4100 50  0000 C CNN
 F 2 "Rays Footprints:R_1206_HandSoldering" V 8890 4040 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73N3AR068FTDF/A109690CT-ND/4032456" H 8850 4050 50  0001 C CNN
@@ -286,10 +286,10 @@ Connection ~ 8850 4850
 Wire Wire Line
 	8850 5400 8850 5600
 $Comp
-L Device:C C2
+L Device:C C3
 U 1 1 5EF70326
 P 8850 5250
-F 0 "C2" H 9000 5200 50  0000 L CNN
+F 0 "C3" H 9000 5200 50  0000 L CNN
 F 1 "0.1u" H 8950 5300 50  0000 L CNN
 F 2 "Rays Footprints:C_0805_HandSoldering" H 8888 5100 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/kemet/C0805C822KBRACTU/399-6740-1-ND/3083914" H 8850 5250 50  0001 C CNN
@@ -343,10 +343,10 @@ Wire Wire Line
 	8850 4700 8800 4700
 Connection ~ 8850 4700
 $Comp
-L Device:R_POT_TRIM_US RV1
+L Device:R_POT_TRIM_US R5
 U 1 1 5EF652AC
 P 8650 4400
-F 0 "RV1" V 8850 4650 50  0000 R CNN
+F 0 "R5" V 8850 4650 50  0000 R CNN
 F 1 "100k" V 8750 4700 50  0000 R CNN
 F 2 "Rays Footprints:Potentiometer_Vishay_TS53YJ_Vertical" H 8650 4400 50  0001 C CNN
 F 3 "~" H 8650 4400 50  0001 C CNN
@@ -354,10 +354,10 @@ F 3 "~" H 8650 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_PHOTO R4
+L Device:R_PHOTO R6
 U 1 1 5EFE57AA
 P 8650 4700
-F 0 "R4" V 8750 4500 50  0000 C CNN
+F 0 "R6" V 8750 4500 50  0000 C CNN
 F 1 "R_PHOTO" V 8850 4600 50  0000 C CNN
 F 2 "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical" V 8700 4450 50  0001 L CNN
 F 3 "~" H 8650 4650 50  0001 C CNN
@@ -390,8 +390,8 @@ $Comp
 L Rays_Symbols:LM555 U2
 U 1 1 5EF652B6
 P 9400 4350
-F 0 "U2" H 9944 4171 50  0000 L CNN
-F 1 "LM555" H 9944 4080 50  0000 L CNN
+F 0 "U2" H 9350 4350 50  0000 L CNN
+F 1 "NE555" H 9300 4250 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9400 4350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 9400 4350 50  0001 C CNN
 	1    9400 4350
@@ -492,10 +492,10 @@ $EndComp
 Wire Wire Line
 	9550 5600 10200 5600
 $Comp
-L Device:R_US R5
+L Device:R_US R7
 U 1 1 5F0883C8
 P 9950 4900
-F 0 "R5" H 9800 4850 50  0000 C CNN
+F 0 "R7" H 9800 4850 50  0000 C CNN
 F 1 "100" H 9800 4950 50  0000 C CNN
 F 2 "Rays Footprints:R_1206_HandSoldering" V 9990 4890 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/RLP73N3AR068FTDF/A109690CT-ND/4032456" H 9950 4900 50  0001 C CNN
